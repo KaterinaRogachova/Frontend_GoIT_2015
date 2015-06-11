@@ -13,7 +13,7 @@
 
 <body>
 
-<table>
+<table frame = "void">
 
     <tr>
         <td colspan ="2" bgcolor="#ffffff"> white</td>
