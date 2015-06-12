@@ -1,0 +1,67 @@
+div
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/*убирает checkbox*/
+#red,#green,#blue
+{
+    display: none;
+}
+/*убирает для id в состоянии checked все классы(~) которые соотвествуют .class*/
+#red:checked ~ .red,
+#green:checked ~ .green,
+#blue:checked ~ .blue
+{
+    display: none;
+}
+/* делаем шрифт прозрачным, задаем рамку вокруг текста*/
+span{
+
+    color:#fff;
+    border-radius:5px;
+    padding:2px 5px;
+}
+
+/* задаем фон для спанов*/
+.red
+{
+    background-color: red;
+}
+.green
+{
+    background-color: green;
+}
+.blue
+{
+    background-color: blue;
+}
+#blue:checked ~ label[for="blue"]
+{
+    color: blue;
+    border-bottom: 2px solid blue;}
+
+#red:checked ~ label[for="red"]
+{
+    color: red;
+    border-bottom: 2px solid red;
+}
+#green:checked ~ label[for="green"]
+{
+    color: green;
+    border-bottom: 2px solid green;
+}
+
+label[for="blue"]
+{
+    color: #2aabd2;}
+
+label[for="red"]
+{
+    color: indianred;
+
+}
+label[for="green"]
+{
+    color: limegreen;
+}
