@@ -1,0 +1,5 @@
+<style>
+        
+        [href*="google"]{color: #666;}
+        [href*="ya"]{color: orange;}
+    </style>
