@@ -1,0 +1,50 @@
+		<!DOCTYPE html>
+		<html>
+		<head>
+			<meta charset="UTF-8">
+			<title>Lecture4_task1</title>
+			<style>
+			ul li{
+				font: 22px Impact;
+				display: inline;
+				list-style-type: none;
+				margin-left: 22px;
+				text-align: left;
+				background-color: purple;
+				}
+				
+			ul {
+				color: white;
+				background-color: purple;
+				width: 900px;
+				padding-left: 30px;
+				padding-right: 10px;
+				}
+			
+			.color {
+				color: grey;
+				background-color: silver;
+				}
+				
+			.right {
+				padding-left: 150px;
+				padding-right: 10px;
+				}	
+				
+			
+			</style>
+			</head>
+		<body>
+			<ul>
+				<li>HOME </li>
+				<li>NEWS</li>
+				<li>ECONOMICS</li>
+				<li>LOCAL</li>
+				<li>SPORT</li>
+				<li>CULTURE</li>
+				<li class="color">TRAVELS</li>
+				<li class="right">MORE</li>
+			</ul>
+						
+		</body>
+		</html>
