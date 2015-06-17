@@ -1,0 +1,49 @@
+		<!DOCTYPE html>
+	<html>
+		<head>
+					<meta charset="UTF-8">
+					<title>Lecture4_task3</title>
+					<style>
+			ul li{
+				font: 14px Impact;
+				display: inline;
+				background-color: silver;
+				margin-left: 22px;
+				margin-right: 22px;
+				text-align: left;
+				}
+				
+			ul {
+				color: purple;
+				padding-left: 30px;
+				padding-right: 10px;
+				}
+			
+			.pager-current {
+				color: white;
+				background-color: purple;
+				}
+			.pager-item {
+				color: white;
+				background-color: purple;
+				}	
+					
+			</style>
+		</head>
+				<body>
+		<ul class="pager"><li class="pager-first first"><a href="#" class="active"> << First </a></li>
+		  <li class="pager-previous"><a href="#" class="active"> << Prev </a></li>
+		  <li class="pager-item"><a href="#" class="active">1</a></li>
+		  <li class="pager-item"><a href="#" class="active">2</a></li>
+		  <li>...</li>
+		  <li class="pager-item"><a href="#" class="active">5</a></li>
+		  <li class="pager-current">6</li>
+		  <li class="pager-item"><a href="#" class="active">7</a></li>
+		  <li class="pager-item"><a href="#" class="active">8</a></li>
+		  <li class="pager-item"><a href="#" class="active">9</a></li>
+		  <li class="pager-next"><a href="#" class="active"> Next >> </a></li>
+		  <li class="pager-last last"><a href="#" class="active"> Last >> </a></li>
+		</ul>
+
+			</body>
+	</html>
